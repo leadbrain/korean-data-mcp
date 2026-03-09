@@ -1,0 +1,46 @@
+{
+  "$schema": "https://glama.ai/mcp/servers/schema.json",
+  "name": "Korean Data MCP",
+  "description": "Real-time Korean web data for AI assistants — Naver reviews, Melon chart, Daangn/Bunjang marketplace, Korean news, Musinsa fashion rankings. Powered by Apify actors.",
+  "license": "MIT",
+  "homepage": "https://github.com/leadbrain/korean-data-mcp",
+  "repository": "https://github.com/leadbrain/korean-data-mcp",
+  "tags": ["korea", "naver", "melon", "daangn", "bunjang", "musinsa", "scraper", "data"],
+  "tools": [
+    {
+      "name": "get_naver_place_reviews",
+      "description": "Fetch reviews for any Naver Place listing"
+    },
+    {
+      "name": "get_melon_chart",
+      "description": "Real-time and historical Korean music chart data from Melon"
+    },
+    {
+      "name": "search_daangn",
+      "description": "Search Daangn Market (당근마켓) C2C listings"
+    },
+    {
+      "name": "search_bunjang",
+      "description": "Search Bunjang (번개장터) marketplace listings"
+    },
+    {
+      "name": "search_naver_news",
+      "description": "Search Korean news articles from Naver News"
+    },
+    {
+      "name": "search_naver_places",
+      "description": "Search places on Naver Map by keyword and location"
+    },
+    {
+      "name": "get_musinsa_ranking",
+      "description": "Fetch Musinsa fashion product rankings by category"
+    }
+  ],
+  "env": [
+    {
+      "name": "APIFY_TOKEN",
+      "description": "Apify API token — get yours free at https://console.apify.com/account/integrations",
+      "required": true
+    }
+  ]
+}
