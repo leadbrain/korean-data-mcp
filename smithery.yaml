@@ -1,0 +1,14 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - apifyToken
+    properties:
+      apifyToken:
+        type: string
+        description: Your Apify API token. Get one free at https://apify.com (includes $5/month credit).
+  commandFunction: |-
+    config => ({ command: 'uvx', args: ['korean-data-mcp'], env: { APIFY_TOKEN: config.apifyToken } })

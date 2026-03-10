@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.leadbrain/korean-data",
+  "title": "Korean Data MCP",
+  "description": "Real-time Korean web data for AI assistants — Naver reviews, Melon charts, Daangn/Bunjang marketplace, Naver News, and Musinsa fashion rankings via Apify.",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "korean-data-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/leadbrain/korean-data-mcp"
+  },
+  "license": "MIT"
+}

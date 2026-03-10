@@ -179,3 +179,5 @@ Issues and PRs welcome at [github.com/leadbrain/korean-data-mcp](https://github.
 ---
 
 *Built on [FastMCP](https://github.com/PrefectHQ/fastmcp) · Data from [Apify](https://apify.com)*
+
+<!-- mcp-name: io.github.leadbrain/korean-data -->
