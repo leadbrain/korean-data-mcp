@@ -8,6 +8,8 @@
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that gives Claude, Cursor, and other AI tools direct access to live Korean web data — including Naver reviews, Melon music charts, Daangn/Bunjang marketplace listings, Korean news, and Musinsa fashion rankings.
 
+[![korean-data-mcp MCP server](https://glama.ai/mcp/servers/leadbrain/korean-data-mcp/badges/card.svg)](https://glama.ai/mcp/servers/leadbrain/korean-data-mcp)
+
 ---
 
 ## 🛠 Available Tools
